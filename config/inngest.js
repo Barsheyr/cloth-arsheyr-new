@@ -3,7 +3,7 @@ import connectDB from "./db";
 import User from "@/models/User";
 
 // Create a client to send and receive events
-export const inngest = new Inngest({ id: "ago" });
+export const inngest = new Inngest({ id: "Ago" });
 
 // ingest function to save user data to a database
 export const syncUserCreation = inngest.createFunction(
